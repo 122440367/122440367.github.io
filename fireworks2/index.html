@@ -10,7 +10,7 @@
 	p{font-size:48px;}
 	p{font-family:"楷体";}
 	</style>
-    <title>博盈新年，笑迎元旦，2023同行，共同狂欢</title>
+    <title>博盈新年，笑迎新春，2023同行，共同狂欢</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -255,7 +255,7 @@ var _hmt = _hmt || [];
     var todayHour = today.getHours()
     var todayMinute = today.getMinutes()
     var todaySecond = today.getSeconds()
-    var t1 = Date.UTC(newYear, 1, 1, 0, 00, 00)
+    var t1 = Date.UTC(newYear, 1, 22, 0, 00, 00)
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
     var diff = t1 - t2
     var diff2 = t2-t1
@@ -271,7 +271,7 @@ var _hmt = _hmt || [];
     var diff2Minutes = Math.floor((diff2 - (diff2Years * 365 + diff2Days) * days - diff2Hours * hours) / minutes)
     var diff2Seconds = Math.floor((diff2 - (diff2Years * 365 + diff2Days) * days - diff2Hours * hours - diff2Minutes *
         minutes) / seconds)
-     if(todayMonth==1){if(todayDate==1){document.getElementById("text1").innerHTML =  "现在是1月1日,祝你"+todayYear+"新年快乐！"}}
+     if(todayMonth==1){if(todayDate==22){document.getElementById("text1").innerHTML =  "现在是大年初一,祝你"+todayYear+"新年快乐！"}}
      else{document.getElementById("text1").innerHTML =  "提前祝你"+newYear+"新年快乐"}
      document.getElementById("time").innerHTML =  diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒"
 }
